@@ -6,6 +6,97 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "587065",
+      "name": "refresh",
+      "font_class": "refresh",
+      "unicode": "e7d1",
+      "unicode_decimal": 59345
+    },
+    {
+      "icon_id": "724352",
+      "name": "工具",
+      "font_class": "ai-tool",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "1278370",
+      "name": "xiazai",
+      "font_class": "xiazai",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "1302556",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "5269208",
+      "name": "添加",
+      "font_class": "tianjia",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "6103396",
+      "name": "bianji",
+      "font_class": "bianji",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "13882886",
+      "name": "lajitong",
+      "font_class": "tubiao-",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "2019931",
+      "name": "Smile",
+      "font_class": "smile",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "6158239",
+      "name": "Boss-老板-1",
+      "font_class": "laoban",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "9648378",
+      "name": "User",
+      "font_class": "user",
+      "unicode": "e716",
+      "unicode_decimal": 59158
+    },
+    {
+      "icon_id": "12687048",
+      "name": "菜单",
+      "font_class": "caidan",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "14816561",
+      "name": "统计",
+      "font_class": "tongji",
+      "unicode": "e6cd",
+      "unicode_decimal": 59085
+    },
+    {
+      "icon_id": "16553727",
+      "name": "order-status-complete",
+      "font_class": "order-status",
+      "unicode": "e884",
+      "unicode_decimal": 59524
+    },
+    {
       "icon_id": "8777509",
       "name": "arrow_up",
       "font_class": "arrow-up",

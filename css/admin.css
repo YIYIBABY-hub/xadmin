@@ -63,20 +63,55 @@
 .container .right li{float: left;}
 /* 顶部容器结束 */
 /* 左侧导航栏 */
-.left-nav{margin-top: 12px;}
-.left-nav .slide_nav{width: 220px;}
-.icon-people{color:#fff;}
-#nav{font-size: 12px;}
-#nav li a{
-	display: block;
-	width: 220px;height: 36px;
-	padding:10px 15px 10px 15px;
-	color:#000;
-	font-size: 12px;
+.left-nav{
+	position: absolute;
+	top:45px;
+	left:0;
+	bottom: 0;
+	padding-top:10px;
+	background-color: #eee;
 }
-#nav .open a.active{
+.left-nav .slide_nav{width: 220px;}
+#nav li i{
+	font-size: 16px;
+	color:#333;
+	padding-right:10px;
+}
+#nav li a:hover{
+	background-color: #009688;
+	color:#fff;
+}
+#nav li a:hover i{
+	color:#fff;
+}
+#nav li a{
+	font-size:12px;
+	color:#000;
+	display: block;
+	height:40px;
+	line-height: 40px;
+	width:220px;
+	padding-left:20px;
+}
+#nav li a span{
+	font-size:12px;
+}
+#nav .icon-arrow-down,#nav .icon-arrow-left{float: right;}
+#nav>li>ul>li>ul>li>a{
+	padding-left:40px;
+}
+.active{
 	background-color: #009688;
 }
-#nav cite{font-size: 12px;}
-#nav .icon-people{padding-right: 10px;}
-#nav .icon-arrow-down{float: right;}
+#nav .active i,#nav .active>span{
+	color:#fff;
+}
+/* 左侧导航栏结束 */
+/* 右侧主体部分 */
+.right_center{
+	position: absolute;
+	right: 0;
+	bottom:0;
+	top:45px;
+	left:220px;
+}
