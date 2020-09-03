@@ -1,0 +1,60 @@
+#del .recovery{
+	padding-top: 25px;
+	padding-bottom:15px;
+	border-bottom: 1px solid #e6e6e6;
+}
+#del .recovery a,#del table tr td:nth-last-child(2) a{
+	padding:8px 10px;
+	color:#fff;
+  border-radius: 2px;
+  font-size: 12px;
+}
+#del .recovery a i{
+	font-size: 12px;
+}
+#del .recovery a span{
+	font-size: 12px;
+	margin-left:3px;
+}
+#del .recovery a:first-child,#del table tr td:nth-last-child(2) a{
+	background-color:#ff5722 ;
+}
+#del .recovery a:first-child:hover,#del table tr td:nth-last-child(2) a:hover{
+	background-color: #fc673a;
+}
+#del .del_table{
+  margin-top:15px;
+}
+#del .del_table table{
+  width:100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+#del table th,#del table td{
+  font-weight: 400;
+  font-size: 12px;
+  color:#666;
+  padding-left:10px;
+  min-width: 80px;
+  border:1px solid #e6e6e6;
+}
+#del table tr{
+  height:59px;
+}
+#del table tr:first-child{
+  height:39px;
+  background-color: #f1f1f1;
+}
+#del table tr + tr{
+  transition:background-color 0.3s ;
+}
+#del table tr + tr:hover{
+  background-color: #f1f1f1;
+}
+#del table tr td:last-child i{
+  cursor: pointer;
+  font-size: 14px;
+}
+#del table tr td:last-child i:hover{
+  color:#ccc;
+}

@@ -1,0 +1,203 @@
+.select_order{
+  border:1px solid #e6e6e6;
+}
+.select_head{
+  height:42px;
+  border-bottom:1px solid #e6e6e6;
+  font-size: 14px;
+  color:#000;
+  background-color: #f1f1f1;
+  line-height: 42px;
+  padding-left:10px;
+}
+.select_head i{
+  font-size: 20px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.select_head span{
+  cursor: pointer;
+}
+.select_body table{
+  width: 100%;
+}
+.select_body table span{
+  font-size: 12px;
+}
+.select_body table tr{
+  height: 45px;
+}
+.select_body table tr td{
+  font-size: 12px;
+  color:#666;
+}
+.select_body table tr td:first-child{
+  width:110px;
+  text-align: right;
+}
+.select_body table tr td:nth-child(2){
+  padding-left: 15px;
+}
+.select_body input.row1{
+  width: 100px;
+  height: 30px;
+  border:1px solid #e6e6e6;
+  color:#666;
+  padding-left: 10px;
+  font-size: 12px;
+  outline:0;
+  transition: border-color 0.3s;
+}
+.select_body input.row1:hover{
+  border-color:#ccc;
+}
+.select_body select{
+  width: 190px;
+  height: 30px;
+  border:1px solid #e6e6e6;
+  color:#666;
+  padding-left: 10px;
+  font-size: 12px;
+  outline:0;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+.select_body select:hover{
+  border-color:#ccc;
+}
+.select_body .wenzi{
+  margin:0 15px 0 50px;
+}
+.select_body .check1{
+  display: flex;
+}
+.select_body .check1 .parent{
+  margin-right:10px;
+}
+.select_body .parent .lab{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  width:85px;
+  background-color: #ccc;
+  cursor: pointer;
+  padding-left:13px;
+}
+.select_body .parent .lab span{
+  color:#fff;
+}
+.select_body .parent .lab:hover{
+  background-color: #bbb;
+}
+.select_body .parent .lab:hover .lab_input{
+  color:#bbb;
+}
+.select_body .parent div.lab_input{
+  width: 31px;
+  height: 30px;
+  outline: 0;
+  color:#fff;
+  background-color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+  line-height:30px; 
+  box-sizing: border-box;
+  border:1px solid #ccc;
+}
+.select_body .parent div.lab_input:hover{
+  color:#bbb;
+}
+.select_body .parent div.active{
+  background-color: #5fb878 !important;
+}
+.select_body .parent div.active2{
+  color:#58b878 !important;
+}
+.select_body .orign_check{
+  margin-right:5px;
+  vertical-align: middle;
+}
+.select_body .orign_text{
+  margin-right:10px;
+}
+.select_body .disa{
+  cursor: not-allowed !important; 
+  color:#bbb;
+}
+.select_body .disa:hover{
+  color:#bbb;
+}
+.select_body .dis_lab{
+  color:#bbb;
+  cursor: not-allowed !important;
+}
+.select_body .turnoff,.select_body .turnon{
+  width: 57px;
+  height: 24px;
+  border:1px solid #d2d2d2;
+  border-radius: 12px; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  padding:0 2px;
+}
+.select_body .turnon{
+  background-color: #5fb878;
+  border:1px solid #5fb878;
+}
+.select_body .turnoff span,.select_body .turnon span{
+  font-size: 12px;
+  color:#ccc;
+} 
+.select_body .turnon span{
+  color:#fff;
+} 
+.select_body .turnoff .circle,.select_body .turnon .circle{
+  width: 16px;
+  height: 16px;
+  border-radius:50%;
+  background-color: #d2d2d2;
+}
+.select_body .turnon .circle{
+  background-color: #fff;
+}
+.select_body .icon-radio{
+  font-size: 20px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.select_body .icon-radio:hover{
+  color:#009688
+}
+.select_body .lab_radio{
+  cursor: pointer;
+  margin-right: 10px;
+}
+.select_body input[type=submit],.select_body input[type=reset]{
+  padding:0 10px;
+  height:30px;
+  border:1px solid #009688;
+  outline: 0;
+  background-color: #009688;
+  color:#fff;
+  font-size: 12px;
+  cursor: pointer;
+}
+.select_body input[type=submit]{
+  transition: background-color 0.3s;
+}
+.select_body input[type=submit]:hover{
+  background-color: #00a988;
+}
+.select_body input[type=reset]{
+  border-color: #c9c9c9;
+  color:#666;
+  background-color: #fff;
+  margin-left:10px;
+  transition: border-color 0.3s;
+}
+.select_body input[type=reset]:hover{
+  border-color: #009688;
+}

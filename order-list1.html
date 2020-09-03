@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="css/comm.css" />
+  <link rel="stylesheet" href="css/member_list.css">
+  <link rel="stylesheet" href="css/order-list1.css">
+	<link rel="stylesheet" type="text/css" href="font/iconfont.css" />
+</head>
+<body>
+  <!-- 顶部导航栏 -->
+  <div class="nav">
+    <span>
+      <a href="#">首页</a> 
+      <span>/</span> 
+      <a href="#">演示</a> 
+      <span>/</span> 导航元素
+    </span>
+    <a href="#" class="refresh_a">
+      <i class="iconfont icon-refresh"></i>
+    </a>
+  </div>
+  <!-- 顶部导航栏结束 -->
+  <div class="main">
+    <div class="select_order">
+      <div class="select_head">
+        <i class="iconfont icon-arrow-down"></i>
+        <span>条件筛选</span>
+      </div>
+      <div class="select_body">
+        <table>
+          <tr>
+            <td>范围</td>
+            <td>
+              <input class="row1" type="text" value="¥">
+              <span>-</span>
+              <input class="row1" type="text" value="¥">
+            </td>
+          </tr>
+          <tr>
+            <td>分组选择框</td>
+            <td>
+              <select>
+                <option>请选择问题</option>
+              </select>
+              <span class="wenzi">搜索选择框</span>
+              <select>
+                <option>直接选择或搜索选择</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>联动选择框</td>
+            <td>
+              <select>
+                <option>浙江省</option>
+              </select>
+              <select>
+                <option>请选择市</option>
+              </select>
+              <select>
+                <option>请选择县/区</option>
+              </select>
+              <span>此处只是演示联动排版，并未做联动交互</span>
+            </td>
+          </tr>
+          <tr>
+            <td>复选框</td>
+            <td>
+              <div class="check1">
+                <div class="parent">
+                  <div class="lab">
+                    <span>写作</span>
+                    <div class="lab_input">
+                      √
+                    </div>
+                  </div>
+                </div>
+                <div class="parent">
+                  <div class="lab active"><span>阅读</span><div class="lab_input active2">√
+                </div></div> </div>
+                <div class="parent">
+                  <div class="lab"><span>游戏</span><div class="lab_input">√
+                </div></div>
+              </div>
+            </div>
+            </td>
+          </tr>
+          <tr>
+            <td>原始复选框</td>
+            <td>
+              <i class="iconfont icon-checkbox orign_check"></i><label class="orign_text">写作</label>
+              <i class="iconfont icon-checkbox orign_check"></i><label class="orign_text">阅读</label>
+              <i class="iconfont icon-checkbox orign_check disa"></i><label class="orign_text dis_lab">游戏</label>
+            </td>
+          </tr>
+          <tr>
+            <td>开关-默认关</td>
+            <td>
+              <div class="turnoff">
+                <div class="circle"></div>
+                <span>OFF</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>开关-默认开</td>
+            <td>
+              <div class="turnon">
+                <span>ON</span>
+                <div class="circle"></div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>单选框</td>
+            <td>
+              <i class="iconfont icon-radio"></i><label class="lab_radio">男</label>
+              <i class="iconfont icon-radio"></i><label class="lab_radio">女</label>
+              <i class="iconfont icon-radio disa"></i><label class="lab_radio dis_lab">禁用</label>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <input type="submit" value="立即提交">
+              <input type="reset" value="重置">
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="third">
+      <a href="#"><i class="iconfont icon-tubiao-"></i><span>批量删除</span></a>
+      <a href="#"><i class="iconfont icon-tianjia"></i><span>添加</span></a>
+    </div>
+    <div class="forth">
+			<table>
+				<tr>
+					<th>
+						<i class="iconfont icon-checkbox"></i>
+					</th>
+					<th>订单编号</th>
+					<th>收货人</th>
+					<th>总金额</th>
+					<th>应付金额</th>
+					<th>订单状态</th>
+					<th>支付状态</th>
+					<th>发货状态</th>
+					<th>支付方式</th>
+					<th>配送方式</th>
+					<th>下单时间</th>
+					<th>操作</th>
+				</tr>
+				<tr>
+					<td><i class="iconfont icon-checkbox"></i></td>
+					<td>2017009171822298053</td>
+					<td>老王:18925139194</td>
+					<td>7829.10</td>
+					<td>7854.10</td>
+					<td>待确认</td>
+					<td>未支付</td>
+					<td>未发货</td>
+					<td>其他方式</td>
+					<td>申通物流</td>
+					<td>2017-08-17 18:22</td>
+					<td>
+            <i class="iconfont icon-order-status"></i>
+						<i class="iconfont icon-tubiao-"></i>
+          </td>
+				</tr>
+				<tr>
+					<td><i class="iconfont icon-checkbox"></i></td>
+					<td>2017009171822298053</td>
+					<td>老王:18925139194</td>
+					<td>7829.10</td>
+					<td>7854.10</td>
+					<td>待确认</td>
+					<td>未支付</td>
+					<td>未发货</td>
+					<td>其他方式</td>
+					<td>申通物流</td>
+					<td>2017-08-17 18:22</td>
+					<td>
+            <i class="iconfont icon-order-status"></i>
+						<i class="iconfont icon-tubiao-"></i>
+          </td>
+				</tr><tr>
+					<td><i class="iconfont icon-checkbox"></i></td>
+					<td>2017009171822298053</td>
+					<td>老王:18925139194</td>
+					<td>7829.10</td>
+					<td>7854.10</td>
+					<td>待确认</td>
+					<td>未支付</td>
+					<td>未发货</td>
+					<td>其他方式</td>
+					<td>申通物流</td>
+					<td>2017-08-17 18:22</td>
+					<td>
+            <i class="iconfont icon-order-status"></i>
+						<i class="iconfont icon-tubiao-"></i>
+          </td>
+				</tr>
+			</table>
+		</div>
+    <div class="last">
+      <a href="#">&lt;&lt;</a>
+      <a href="#" class="active">1</a>
+      <a href="#">2</a>
+      <a href="#">3</a>
+      <a href="#">489</a>
+      <a href="#">&gt;&gt;</a>
+    </div>
+  </div>
+</body>
+</html>

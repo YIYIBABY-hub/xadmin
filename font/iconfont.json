@@ -6,6 +6,55 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "722174",
+      "name": "radio",
+      "font_class": "radio",
+      "unicode": "e75e",
+      "unicode_decimal": 59230
+    },
+    {
+      "icon_id": "1393637",
+      "name": "down",
+      "font_class": "down",
+      "unicode": "e6e9",
+      "unicode_decimal": 59113
+    },
+    {
+      "icon_id": "1393804",
+      "name": "up",
+      "font_class": "up",
+      "unicode": "e734",
+      "unicode_decimal": 59188
+    },
+    {
+      "icon_id": "1163328",
+      "name": "打印",
+      "font_class": "print",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "4922626",
+      "name": "导出",
+      "font_class": "export",
+      "unicode": "e677",
+      "unicode_decimal": 58999
+    },
+    {
+      "icon_id": "15162748",
+      "name": "liebiao",
+      "font_class": "liebiao",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "9009480",
+      "name": "checkbox",
+      "font_class": "checkbox",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
       "icon_id": "587065",
       "name": "refresh",
       "font_class": "refresh",

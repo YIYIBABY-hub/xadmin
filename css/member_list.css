@@ -44,5 +44,150 @@ div{
 /* 顶部导航栏结束 */
 .main{
   width: 98%;
-  margin:15px auto;
+	margin:15px auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.second{
+	padding-top:10px;
+}
+.second input{
+	width: 100%;height: 30px;
+	border:1px solid #e6e6e6;
+	border-radius: 2px;
+	padding-left: 10px;
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+@media (min-width:768px){
+	.second input{
+		width: 158px;
+		margin-bottom: 0px;
+	}
+}
+.main .search{
+	display: inline-block;
+	width: 37px;
+	height:30px;
+	line-height:30px;
+	vertical-align: middle;
+	text-align: center;
+	background-color: #009688;
+	color:#fff;
+	font-size: 12px;
+	border-radius: 2px;
+}
+.main .search:hover{
+	background-color: #00a988;
+}
+.main .third{
+	padding-top: 25px;
+	padding-bottom:15px;
+	border-bottom: 1px solid #e6e6e6;
+}
+.main .third a{
+	padding:8px 10px;
+	color:#fff;
+	border-radius: 2px;
+}
+.main .third a i{
+	font-size: 12px;
+}
+.main .third a span{
+	font-size: 12px;
+	margin-left:3px;
+}
+.main .third a:first-child{
+	background-color:#ff5722 ;
+}
+.main .third a:first-child:hover{
+	background-color: #fc673a;
+}
+.main .third a:last-child{
+	background-color: #009688;
+}
+.main .third a:last-child:hover{
+	background-color: #00a988;
+}
+.forth{
+	padding-top: 20px;
+}
+.forth table{
+	width:100%;
+	border-collapse: collapse;
+	text-align: left;
+	color:#666;
+}
+.forth table th,.forth table td{
+	min-width: 80px;
+	border:1px solid #e6e6e6;
+	padding-left:15px;
+	font-weight: 400;
+	font-size: 12px;
+}
+.forth table tr{
+	height:49px;
+}
+.forth table tr + tr{
+	transition: background-color 0.2s linear;
+}
+.forth table tr + tr:hover{
+	background-color: #f1f1f1;
+}
+.forth table tr:first-child{
+	height:39px;
+	background-color: #f1f1f1;
+}
+.icon-checkbox{
+	font-size: 16px;
+	color:#d2d2d2;
+	cursor: pointer;
+	transition: color 0.5s;
+	font-weight: 400;
+}
+.icon-checkbox:hover{
+	color:#009688;
+}
+.forth .anniu{
+	padding:8px 10px;
+	background-color: #1E9FFF;
+	color:#fff;
+	font-size: 12px;
+	border-radius: 2px;
+	transition:0.3s;
+}
+.forth .anniu:hover{
+	background-color: #51b1fa;
+}
+.forth table td:last-child i{
+	font-size: 12px;
+	cursor: pointer;
+}
+.forth table td:last-child i:hover{
+	color:#999;
+}
+.forth table td:last-child i + i{
+	margin-left:5px;
+}
+.forth table td:last-child i:first-child{
+	color:#000;
+}
+.forth table td:last-child i:first-child:hover{
+	color:#999;
+}
+.last{
+	padding-top:30px;
+	padding-bottom:20px;
+	text-align:center;
+}
+.last a{
+	display: inline-block;
+	padding:10px 5px;
+	border:1px solid #e2e2e2;
+	color:#666;
+	min-width: 27px;
+}
+.last a.active{
+	background-color: #009688;
+	color:#fff;
 }

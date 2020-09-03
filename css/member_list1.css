@@ -1,0 +1,173 @@
+#dynamic{
+  border:1px solid #e6e6e6;
+  margin-top:30px;
+}
+#dynamic div{
+  background-color: #f1f1f1;
+}
+#dynamic .first{ 
+  padding-top:10px;
+  padding-left:20px;
+}
+#dynamic .first button{
+  height:30px;
+  line-height: 30px;
+  padding:0 10px;
+  outline:0;
+  background-color: #009688;
+  color:#fff;
+  font-size:12px;
+  border-radius: 2px;
+  border:0;
+  cursor: pointer;
+}
+#dynamic .first button:hover{
+  background-color: #00a988;
+}
+#dynamic .first .right{
+  float:right;
+}
+#dynamic .first .right a{
+  color:#000;
+  width: 26px;
+  height: 26px;
+  line-height:26px;
+  font-size: 14px;
+  display: inline-block;
+  border:1px solid #ccc;
+  text-align:center;
+  margin-right:8px;
+}
+.second{
+  overflow:auto;
+}
+#dynamic .second table{
+  width:105%;
+  border-collapse: collapse;
+  text-align: left;
+}
+table,tr,th,td{
+  box-sizing: border-box;
+  font-size: 12px;
+}
+table th span{
+  font-size: 12px;
+}
+#dynamic .second table tr{
+  height:38px;
+}
+#dynamic table tr + tr{
+  background-color: #fff;
+  transition: background-color 0.3s;
+}
+#dynamic table tr + tr:hover{
+  background-color: #f1f1f1;
+}
+#dynamic table tr th,#dynamic table tr td{
+  min-width:80px;
+  border:1px solid #e6e6e6;
+  padding-left:10px;
+  font-weight: 400;
+  color:#666;
+}
+#dynamic .arrow_wrap{
+  position: relative;
+}
+#dynamic .arrow_wrap .arrow{
+  margin-left:5px;
+}
+#dynamic .icon-up,#dynamic .icon-down{
+  font-size: 12px;
+  position: absolute;
+  color:#999;
+  cursor: pointer;
+}
+#dynamic .icon-up{
+  top:-1px;
+}
+#dynamic .icon-down{
+  top:6px;
+}
+#dynamic .icon-up:hover,#dynamic .icon-down:hover{
+  color:#000;
+}
+#dynamic .sex_radio{
+  border:1px solid #ccc;
+  width: 50px;
+  height: 24px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  border-radius:12px;
+  padding:0 3px;
+  cursor: pointer;
+}
+#dynamic .sex_radio span{
+  font-size: 12px;
+}
+#dynamic .sex_radio .circle{
+  width: 16px;
+  height: 16px;
+  background-color: #ccc;
+  border-radius: 50%;
+}
+#dynamic .woman{
+  background-color: #0aad40;
+  color:#fff;
+  border-color:#0aad40;
+}
+#dynamic .sex_radio .active{
+  background-color: #fff;
+}
+#dynamic .bottom{
+  border-top:1px solid #e6e6e6;
+  padding:10px 20px;
+  background-color: #fff;
+}
+#dynamic .bottom a{
+  padding:5px 10px;
+  color:#000;
+  font-size: 12px;
+}
+#dynamic .bottom a:hover{
+  color:#009688;
+}
+#dynamic .bottom a .icon-arrow-left,#dynamic .bottom a .icon-arrow-right{
+  font-size: 16px;
+}
+#dynamic .bottom a.active{
+  background-color: #009688;
+  color:#fff;
+  border-radius: 2px;
+}
+#dynamic .bottom span{
+  font-size: 12px;
+  color:#666;
+}
+#dynamic .bottom input[type=text],#dynamic .bottom input[type=button]{
+  width: 40px;
+  height: 26px;
+  border:1px solid #ccc;
+  border-radius:2px;
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+  background-color: #fff;
+  color:#000;
+}
+#dynamic .bottom input[type=text]{
+  cursor: text;
+}
+#dynamic .bottom .total{
+  color:#000;
+  margin:0 5px;
+}
+#dynamic .bottom select{
+  width: 75px;
+  height: 26px;
+  font-size: 12px;
+  outline:0;
+  border:1px solid #ccc;
+  border-radius:2px;
+}

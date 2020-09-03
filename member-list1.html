@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="css/comm.css" />
+  <link rel="stylesheet" href="css/member_list.css">
+  <link rel="stylesheet" href="css/member_list1.css">
+	<link rel="stylesheet" type="text/css" href="font/iconfont.css" />
+</head>
+<body>
+  <!-- 顶部导航栏 -->
+  <div class="nav">
+    <span>
+      <a href="#">首页</a> 
+      <span>/</span> 
+      <a href="#">演示</a> 
+      <span>/</span> 导航元素
+    </span>
+    <a href="#" class="refresh_a">
+      <i class="iconfont icon-refresh"></i>
+    </a>
+  </div>
+  <!-- 顶部导航栏结束 -->
+  <div class="main">
+    <div class="second">
+      <input type="text" placeholder="开始日">
+      <input type="text" placeholder="截止日">
+      <input type="text" placeholder="请输入用户名">
+      <a href="#" class="search">
+        <i class="iconfont icon-search"></i>
+      </a>
+    </div>
+    <div id="dynamic">
+      <div class="first">
+        <button>获取选中行数据</button>
+        <button>获取选中数目</button>
+        <button>验证是否全选</button>
+        <div class="right">
+          <a href="#"><i class="iconfont icon-liebiao"></i></a>
+          <a href="#"><i class="iconfont icon-export"></i></a>
+          <a href="#"><i class="iconfont icon-print"></i></a>
+        </div>
+      </div>
+      <div class="second">
+        <div class="table-header">
+          <table>
+            <tr>
+              <th><i class="iconfont icon-checkbox"></i></th>
+              <th>
+                <div class="arrow_wrap">
+                  <span>ID</span>
+                  <span class="arrow">
+                    <i class="iconfont icon-up"></i>
+                    <i class="iconfont icon-down"></i>
+                </span>
+                </div>
+              </th>
+              <th> 
+                <div class="arrow_wrap">
+                <span>用户名</span>
+                <span class="arrow">
+                  <i class="iconfont icon-up"></i>
+                  <i class="iconfont icon-down"></i>
+                </span>
+                </div>
+            </th>
+              <th>邮箱</th>
+              <th>性别</th>
+              <th>城市</th>
+              <th>
+                <div class="arrow_wrap">
+                  <span>积分</span>
+                  <span class="arrow">
+                    <i class="iconfont icon-up"></i>
+                    <i class="iconfont icon-down"></i>
+                </span>
+                </div>
+              </th>
+              <th>学校</th>
+            </tr>
+            <tr>
+              <td><i class="iconfont icon-checkbox"></i></td>
+              <td>10001</td>
+              <td>杜甫</td>
+              <td>xianxin@aaa.com</td>
+              <td>
+                <div class="sex_radio">
+                  <div class="circle"></div>
+                  <span>男</span>
+                </div>
+              </td>
+              <td>浙江杭州</td>
+              <td>116</td>
+              <td>小学</td>
+            </tr>
+            <tr>
+              <td><i class="iconfont icon-checkbox"></i></td>
+              <td>10002</td>
+              <td>李白</td>
+              <td>xianxin@aaa.com</td>
+              <td>
+                <div class="sex_radio">
+                  <div class="circle"></div>
+                  <span>男</span>
+                </div>
+              </td>
+              <td>浙江杭州</td>
+              <td>116</td>
+              <td>小学</td>
+            </tr>
+            <tr>
+              <td><i class="iconfont icon-checkbox"></i></td>
+              <td>10003</td>
+              <td>王勃</td>
+              <td>xianxin@aaa.com</td>
+              <td>
+                <div class="sex_radio woman">
+                  <span>女</span>
+                  <div class="circle active"></div>
+                </div>
+              </td>
+              <td>浙江杭州</td>
+              <td>116</td>
+              <td>小学</td>
+            </tr>
+            <tr>
+              <td><i class="iconfont icon-checkbox"></i></td>
+              <td>10004</td>
+              <td>李清照</td>
+              <td>xianxin@aaa.com</td>
+              <td>
+                <div class="sex_radio">
+                  <div class="circle"></div>
+                  <span>男</span>
+                </div>
+              </td>
+              <td>浙江杭州</td>
+              <td>116</td>
+              <td>小学</td>
+            </tr>
+            <tr>
+              <td><i class="iconfont icon-checkbox"></i></td>
+              <td>10005</td>
+              <td>冰心</td>
+              <td>xianxin@aaa.com</td>
+              <td>
+                <div class="sex_radio">
+                  <div class="circle"></div>
+                  <span>男</span>
+                </div>
+              </td>
+              <td>浙江杭州</td>
+              <td>116</td>
+              <td>小学</td>
+            </tr>
+            <tr>
+              <td><i class="iconfont icon-checkbox"></i></td>
+              <td>10006</td>
+              <td>杜甫</td>
+              <td>xianxin@aaa.com</td>
+              <td>
+                <div class="sex_radio">
+                  <div class="circle"></div>
+                  <span>男</span>
+                </div>
+              </td>
+              <td>浙江杭州</td>
+              <td>116</td>
+              <td>小学</td>
+            </tr>
+            <tr>
+              <td><i class="iconfont icon-checkbox"></i></td>
+              <td>10007</td>
+              <td>杜甫</td>
+              <td>xianxin@aaa.com</td>
+              <td>
+                <div class="sex_radio">
+                  <div class="circle"></div>
+                  <span>男</span>
+                </div>
+              </td>
+              <td>浙江杭州</td>
+              <td>116</td>
+              <td>小学</td>
+            </tr>
+            <tr>
+              <td><i class="iconfont icon-checkbox"></i></td>
+              <td>10008</td>
+              <td>杜甫</td>
+              <td>xianxin@aaa.com</td>
+              <td>
+                <div class="sex_radio">
+                  <div class="circle"></div>
+                  <span>男</span>
+                </div>
+              </td>
+              <td>浙江杭州</td>
+              <td>116</td>
+              <td>小学</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="bottom">
+        <a href="#"><i class="iconfont icon-arrow-left"></i></a>
+        <a href="#" class="active">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <span>...</span>
+        <a href="#">300000</a>
+        <a href="#"><i class="iconfont icon-arrow-right"></i></a>
+        <span>到第</span>
+        <input type="text" value="1">
+        <span>页</span>
+        <input type="button" value="确定">
+        <span class="total">共300000条</span>
+        <select>
+          <option>10条/页</option>
+          <option>20条/页</option>
+          <option>30条/页</option>
+          <option>40条/页</option>
+          <option>50条/页</option>
+          <option>60条/页</option>
+          <option>70条/页</option>
+          <option>80条/页</option>
+          <option>90条/页</option>
+        </select>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
